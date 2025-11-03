@@ -26,7 +26,6 @@ span {
   background-color: rgb(103, 158, 128);
   padding-right: 20px;
   padding-left: 50px;
-  padding-bottom: 15px;
   margin-bottom: 15px;
   background-position: 15px 10px;
   background-repeat: no-repeat;
@@ -42,13 +41,13 @@ span {
 }
 
 .level-two {
-  background-color: rgb(153, 180, 102);
-  font-size: 18px;
+  font-size: 18px;  
+  margin-bottom: 10px;  
   font-style: italic;
-  padding-left: 40px;
 }
 
 .level-two li {
+  background-color: rgb(153, 180, 102);
   margin-bottom: 10px;
   padding-left: 40px;
   background-position: 10px center;
