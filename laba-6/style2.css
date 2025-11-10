@@ -16,7 +16,6 @@ body {
   background-color: white;
 }
 
-/* ======= ШАПКА ======= */
 header {
   overflow: hidden;
   margin-bottom: 20px;
@@ -130,7 +129,7 @@ main {
 }
 .image-six {
   border: 12px double;
-  border-image: url('Patern2.png') 8 round;
+  border-image: url('Patern2.png') 10 round;
 }
 
 .block h3 {

@@ -89,7 +89,6 @@ header {
   font-size: 14px;
 }
 
-/* Градієнти */
 .grad-one {
   background-image: linear-gradient(to right, yellow, blue),
     radial-gradient(circle at top left, red, transparent);
