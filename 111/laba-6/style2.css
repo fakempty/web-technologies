@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffaf5;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+header {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.menu {
+  float: right;
+  margin-top: 15px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  background-color: #ff6600;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background-color: #e65500;
+}
+
+main {
+  overflow: hidden;
+}
+
+.block {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fafafa;
+  text-align: justify;
+  min-height: 120px;
+}
+
+.green {
+  border: 6px solid green;
+  background-color: #eaffea;
+}
+.green-salad {
+  border: 6px solid;
+  border-color: green greenyellow;
+  background-color: #eaffea;
+}
+
+.orange {
+  background-color: #fff2e5;
+}
+
+.radius-one {
+  border-radius: 10px;
+}
+.radius-two {
+  border-radius: 70px 0px;
+}
+.radius-three {
+  border-radius: 30px 150px;
+}
+.radius-four {
+  border-radius: 70px/25px;
+}
+.radius-five {
+  border-radius: 125px/75px 5px;
+}
+.radius-six {
+  border-bottom-right-radius: 100%;
+}
+
+.image-one {
+  border: 12px double;
+  border-image: url('Patern2.png') 10 stretch stretch;
+}
+.image-two {
+  border: 12px solid transparent;
+  border-image: url('Untitled2.png') 8 round;
+}
+.image-three {
+  border: 12px solid transparent;
+  border-image: url('Untitled.png') 16 stretch;
+}
+.image-four {
+  border: 12px solid transparent;
+  border-image: url('Untitled2.png') 16 stretch stretch;
+}
+.image-five {
+  border: 12px solid transparent;
+  border-image: url('Patern2.png') 16 repeat stretch;
+}
+.image-six {
+  border: 12px double;
+  border-image: url('Patern2.png') 10 round;
+}
+
+.block h3 {
+  margin-top: 0;
+  color: #333;
+  text-align: left;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
