@@ -1,0 +1,53 @@
+
+body {
+    font-family: "Times New Roman", serif;
+    margin: 40px;
+    border: 1px solid #a1a1a1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.recipe {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+p, li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.color-highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.note {
+    border-top: 3px solid green;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+ul li::before {
+    content: "• ";
+    color: black;
+}
